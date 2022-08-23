@@ -1,0 +1,95 @@
+body {
+    background-color: cornflowerblue;
+}
+.posts {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 5px solid yellow;
+}
+.main-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: darkblue;
+    display: none;
+}
+.overlay.active {
+    display: block;
+}
+.close {
+    color: aliceblue;
+    font-size: 35px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.descr {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 5px solid yellow;
+}
+.deletepost {
+    background-color: rgb(8, 70, 61);
+    color: yellowgreen;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.titlepost {
+    height: 250px;
+}
+.add-post {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(157, 255, 0);
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 50%;
+    border: 3px solid rgb(6, 255, 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px; 
+    font-weight: bolder;
+    cursor: pointer;
+}
+.overlay-add {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: darkblue;
+    color: aliceblue;
+    display: none;
+}
+.overlay-add.addPost {
+    display: block;
+}
+.titlepost {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    font-size: 15px;
+}
+.titleid {
+    display: flex;
+    justify-content: center;
+}
